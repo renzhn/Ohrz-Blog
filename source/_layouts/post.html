@@ -11,6 +11,7 @@ single: true
       <footer>
         <p class="meta text-muted">
           {% include post/author.html %}
+           &nbsp;
           {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
           {% include post/categories.html %}
         </p>
@@ -29,7 +30,7 @@ single: true
     {% if site.disqus_short_name and page.comments == true %}
       <section>
         <h1>Comments</h1>
-        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+        <div id="disqus_thread" aria-live="polite">{% include disqus.html %}</div>
       </section>
     {% endif %}
   </div>

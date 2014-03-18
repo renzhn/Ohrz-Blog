@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://renzhn.github.io
+url: http://ohrz.net
 title: Renzhn's Blog
 subtitle: A blog.
 author: Renzhn
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: "ohrz"
 disqus_show_comment_count: false
 
 # Google Analytics
