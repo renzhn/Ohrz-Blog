@@ -98,3 +98,6 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+#Duoshuo
+duoshuo_short_name: "ohrz"
