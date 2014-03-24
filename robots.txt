@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://renzhn.github.io/sitemap.xml 
+Sitemap: http://ohrz.net/sitemap.xml 

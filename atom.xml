@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Renzhn's Blog]]></title>
-  <link href="http://renzhn.github.io/atom.xml" rel="self"/>
-  <link href="http://renzhn.github.io/"/>
-  <updated>2014-03-18T15:46:08+08:00</updated>
-  <id>http://renzhn.github.io/</id>
+  <link href="http://ohrz.net/atom.xml" rel="self"/>
+  <link href="http://ohrz.net/"/>
+  <updated>2014-03-24T14:06:49+08:00</updated>
+  <id>http://ohrz.net/</id>
   <author>
     <name><![CDATA[Renzhn]]></name>
     
@@ -14,11 +14,34 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test post]]></title>
-    <link href="http://renzhn.github.io/blog/2014/03/18/test-post/"/>
-    <updated>2014-03-18T10:41:00+08:00</updated>
-    <id>http://renzhn.github.io/blog/2014/03/18/test-post</id>
-    <content type="html"><![CDATA[
+    <title type="html"><![CDATA[一篇重要的帖子]]></title>
+    <link href="http://ohrz.net/blog/2014/03/18/a-very-important-post/"/>
+    <updated>2014-03-18T22:41:54+08:00</updated>
+    <id>http://ohrz.net/blog/2014/03/18/a-very-important-post</id>
+    <content type="html"><![CDATA[<h2>这是一篇很重要的帖子</h2>
+
+<h3>原因如下</h3>
+
+<ul>
+<li>马上要断电了，我好像还有很多事情要做</li>
+<li>第一次正式写Blog十分激动</li>
+<li>貌似学会了Markdown语法</li>
+<li>来个链接<a href="http://weibo.com/ohrz">http://weibo.com/ohrz</a></li>
+<li>换个格式<a href="http://weibo.com/ohrz" title="点击进入我的新浪围脖">我的微博</a></li>
+</ul>
+
+
+<h2>前方高能</h2>
+
+<p>什么？ 我<em>插入</em>了一张<strong>图片</strong></p>
+
+<p>用的是传说中的<strong>新浪图床</strong></p>
+
+<p><img src="http://ww4.sinaimg.cn/large/8b7d9324gw1eek9psn8b8j21f02ioe82.jpg" alt="南京樱花节" /></p>
+
+<h2>杂话</h2>
+
+<p>晚上听了首歌觉得不错<a href="http://music.baidu.com/song/7561969">Friday Night &ndash; Fun Lovin&#8217; Criminals</a></p>
 ]]></content>
   </entry>
   
