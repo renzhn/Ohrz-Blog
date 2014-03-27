@@ -17,6 +17,7 @@ categories:
 - 来个链接<http://weibo.com/ohrz>
 - 换个格式[我的微博](http://weibo.com/ohrz "点击进入我的新浪围脖")
 
+<!-- more -->
 
 前方高能
 ----
