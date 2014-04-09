@@ -10,3 +10,8 @@ comments: true
 
 ###This is an about page
 ####这是关于页面
+
+#Links
+---
+
+###[那些年我们一起唱过的班歌](/3211-songs/)
