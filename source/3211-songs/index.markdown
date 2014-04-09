@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "那些年我们一起唱过的班歌"
+title: "那些年，我们一起唱过的班歌"
 date: 2014-04-09 20:32
 comments: true
 sharing: true
@@ -42,6 +42,22 @@ $(document).ready(function(){
 		{
 			title:"范玮琪-最初的梦想",
 			mp3:"http://song-of-3211.qiniudn.com/%E8%8C%83%E7%8E%AE%E7%90%AA-%E6%9C%80%E5%88%9D%E7%9A%84%E6%A2%A6%E6%83%B3.mp3"
+		},
+		{
+			title:"王力宏-龙的传人",
+			mp3:"http://song-of-3211.qiniudn.com/%E7%8E%8B%E5%8A%9B%E5%AE%8F-%E9%BE%99%E7%9A%84%E4%BC%A0%E4%BA%BA.mp3"
+		},
+		{
+			title:"筷子兄弟-老男孩",
+			mp3:"http://song-of-3211.qiniudn.com/%E7%AD%B7%E5%AD%90%E5%85%84%E5%BC%9F-%E8%80%81%E7%94%B7%E5%AD%A9.mp3"
+		},
+		{
+			title:"韩磊-向天再借五百年(经泉特荐)",
+			mp3:"http://song-of-3211.qiniudn.com/%E9%9F%A9%E7%A3%8A-%E5%90%91%E5%A4%A9%E5%86%8D%E5%80%9F%E4%BA%94%E7%99%BE%E5%B9%B4.mp3"
+		},
+		{
+			title:"成龙-站起来",
+			mp3:"http://song-of-3211.qiniudn.com/%E6%88%90%E9%BE%99-%E7%AB%99%E8%B5%B7%E6%9D%A5.mp3"
 		},
 	], {
 		swfPath: "jplayer",
@@ -103,5 +119,6 @@ $(document).ready(function(){
 </div>
 
 ---
+[百度网盘](http://pan.baidu.com/s/1pJuJIOF)
 
 *注：曲目还需要完善*
