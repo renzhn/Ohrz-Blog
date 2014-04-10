@@ -12,7 +12,7 @@ rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "master"
+deploy_branch  = "gitcafe-pages"
 
 ## -- Misc Configs -- ##
 
@@ -265,8 +265,7 @@ multitask :push do
     message = "Site updated at #{Time.now.utc}"
     system "git commit --amend -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
-    #system "git push origin #{deploy_branch}"
-    system "git push -f gitcafe gitcafe-pages"
+    system "git push -f origin #{deploy_branch}"
     puts "\n## Github Pages deploy complete"
   end
 end
