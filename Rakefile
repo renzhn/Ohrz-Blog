@@ -263,10 +263,10 @@ multitask :push do
     system "git add -A"
     puts "\n## Committing: Site updated at #{Time.now.utc}"
     message = "Site updated at #{Time.now.utc}"
-    system "git commit -m \"#{message}\""
+    system "git commit --amend -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
     #system "git push origin #{deploy_branch}"
-    system "git push gitcafe gitcafe-pages"
+    system "git push -f gitcafe gitcafe-pages"
     puts "\n## Github Pages deploy complete"
   end
 end
