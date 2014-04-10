@@ -59,15 +59,15 @@ $(document).ready(function(){
 			title:"成龙-站起来",
 			mp3:"http://song-of-3211.qiniudn.com/%E6%88%90%E9%BE%99-%E7%AB%99%E8%B5%B7%E6%9D%A5.mp3"
 		},
+		{
+			title:"张杰-我们都一样",
+			mp3:"http://song-of-3211.qiniudn.com/%E5%BC%A0%E6%9D%B0-%E6%88%91%E4%BB%AC%E9%83%BD%E4%B8%80%E6%A0%B7.mp3"
+		},
 	], {
 		swfPath: "jplayer",
-		supplied: "mp3",
-		wmode: "window",
 		smoothPlayBar: true,
 		keyEnabled: true
 	});
-
-	$("#jplayer_inspector_1").jPlayerInspector({jPlayer:$("#jquery_jplayer_1")});
 });
 //]]>
 </script>
