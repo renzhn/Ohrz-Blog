@@ -5,8 +5,11 @@ single: true
 ---
 
 <div class="row">
-  <div class="page-content {% unless page.sidebar == false or site.post_asides == empty and site.default_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}">
-    <article class="hentry" role="article">
+  <div class="page-content {% unless page.sidebar == false or site.post_asides == empty and site.default_asides == empty %}col-md-9{% else %}col-md-12{% endunless %}" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="{{site.title}}" />
+    {% if site.description %}<meta itemprop="description" content="{{site.description}}" />{% endif %}
+    <meta itemprop="url" content="{{site.url}}" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       {% include article.html %}
       <footer>
         <p class="text-muted">
@@ -17,7 +20,7 @@ single: true
           {% include post/categories.html %}
         </p>
         {% if page.previous.url or page.next.url %}
-          <ul class="meta text-muted pager">
+          <ul class="text-muted pager">
             {% if page.previous.url %}
             <li class="previous"><a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a></li>
             {% endif %}
@@ -31,7 +34,8 @@ single: true
     {% if site.disqus_short_name and page.comments == true %}
       <section>
         <h1>Comments</h1>
-        <div class="ds-thread" aria-live="polite">{% include disqus.html %}</div>
+        <hr>
+        <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
       </section>
     {% endif %}
   </div>

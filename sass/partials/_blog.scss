@@ -26,14 +26,7 @@ article {
       }
     }
   }
-  > footer {
-    padding-bottom: 1em;
-    margin-top: 2em;
-    p.meta {
-      margin-bottom: .8em;
-      clear: both;
-    }
-  }
+  footer { margin-top: 25px; }
 }
 
 .separator {
@@ -44,19 +37,8 @@ article {
 
 /* our own */
 .page-header {
-    p.meta {
-        margin-bottom: 0;
-    }
     .entry-title {
-        margin-top: 0;
+        margin-top: 8px;
+        margin-bottom: 5px;
     }
 }
-
-/* bottom pager */
-.pager {
-    margin-top: 42px;
-}
-.meta.pager {
-    margin-top: 24px;
-}
-

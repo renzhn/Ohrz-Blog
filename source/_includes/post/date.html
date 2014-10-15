@@ -11,5 +11,5 @@
 {% endif %}
 
 {% if was_updated != '0' %}
-    {% capture updated %}<span class="glyphicon glyphicon-calendar"></span> <time datetime="{{ updated | datetime | date_to_xmlschema }}" class="updated" itemprop="dateModified">Updated {{ updated_formatted }}</time>{% endcapture %}
+  {% capture updated %}<span class="glyphicon glyphicon-calendar"></span> <time datetime="{{ updated | datetime | date_to_xmlschema }}" class="updated" itemprop="dateModified">Updated {{ updated_formatted }}</time>{% endcapture %}
 {% else %}{% assign updated = false %}{% endif %}
