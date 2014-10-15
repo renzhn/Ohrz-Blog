@@ -26,7 +26,10 @@ article {
       }
     }
   }
-  footer { margin-top: 15px; }
+  > footer {
+    padding-bottom: 1em;
+    margin-top: 2em;
+  }
 }
 
 .separator {
@@ -38,7 +41,13 @@ article {
 /* our own */
 .page-header {
     .entry-title {
-        margin-top: 8px;
-        margin-bottom: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
+
+/* bottom pager */
+.pager {
+    margin-top: 24px;
+}
+
