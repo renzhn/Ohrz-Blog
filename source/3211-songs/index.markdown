@@ -9,6 +9,7 @@ author: "Renzhn"
 ---
 
 <link href="jplayer/skin/jplayer.midnight.black.css" rel="stylesheet" type="text/css" />
+<script src="/javascripts/libs/jquery.min.js"></script>
 <script type="text/javascript" src="jplayer/jquery.jplayer.min.js"></script>
 <script type="text/javascript" src="jplayer/jplayer.playlist.min.js"></script>
 <script type="text/javascript">
